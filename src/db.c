@@ -4,6 +4,8 @@
  * Copyright (C) 2010 Creytiv.com
  */
 
+#define _POSIX_C_SOURCE 199309L
+
 #include <string.h>
 #include <unistd.h>
 #include <pthread.h>
